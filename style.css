@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina&family=Trirong:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    footer{
+        background-color: #2455f4;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        height: 8vh;
+        font-family: 'Mina', sans-serif;
+font-family: 'Trirong', serif;
+        
+}
+li a{
+    
+    padding: 20px;
+    text-decoration: none;
+    color:white;    
+    list-style: none;
+    flex-direction: column;
+
+}li a:hover{
+    color: blue;
+    font-style: bold;
+  
+      }
+
+
+    li{
+        display: inline;
+      list-style: none;
+    }
+      img{
+        width: 70px;
+        padding-right: 30px;
+        
+      }  
+    
+.main{
+
+    min-height: 75vh;
+}
+
+ul  {
+    background-color:#2455f4;
+    padding: 20px;
+    display: flex;
+    height: 40px;font-family: 'Mina', sans-serif;
+    font-family: 'Trirong', serif;
+
+}
+
+.search input{
+  height:20px ;
+  width: 500px;
+  border-radius: 5px;
+  margin: 0,70px; 
+  cursor: pointer;
+}
+.btn {
+  padding: 0 10px;
+  background-color: #2455f4;
+  color: white;
+  border-color: white;
+  border-radius: 5px;
+  font-family: 'Trirong', serif;
+  margin: 0 20px;
+  cursor: pointer;
+
+}
+.slider img{
+  width: 800px;
+  height: 400px ;
+  margin: 12px auto;
+  display: flex
+  ;
+}
+.items img {
+  width: 150px;
+  height: 200px;
+  margin: 0 50px;
+}
+.items h1{
+margin: 0 50px;
+}
+.lines p{
+margin: 0 100px;
+display: inline-flex;
+}
+.card items img{
+  display: inline-flex;
+}
+h2{
+  padding-top: 70px;
+}
+
+svg{
+  padding-right: 50px;
+  cursor: pointer;
+}
+@media screen and(min-width:500px){
+  main{
+    background-color: red;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
